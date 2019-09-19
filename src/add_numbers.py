@@ -26,8 +26,8 @@ class SumOfNumbers:
             raise Exception("X and Y should be numbers to add them")
 
         # logic change example
-        if self.x < 0 or self.y < 0:
-            return 0
+        # if self.x < 0 or self.y < 0:
+        #     return 0
 
         while True:
             carry = self.x & self.y
